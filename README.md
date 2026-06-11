@@ -1,4 +1,4 @@
-# KaffeeSATS# ☕⚡ KaffeeSATS
+☕⚡ KaffeeSATS
 
 ## Bitcoin-Powered Coffee Machines
 
