@@ -110,7 +110,11 @@ This project is released under the MIT License.
 Feel free to fork, improve and build your own Bitcoin-powered coffee machine.
 
 
-!!!!! Thank you to Axel for the amazing work (Zapbox & Offline Switch) & LNBits !!!!!
+## Acknowledgements
+
+Special thanks to Axel (www.ereignishorizont.xyz) for the development of ZapBox and the Offline Bitcoin Switch.
+
+Thanks to the LNbits team for providing the open-source payment infrastructure.
 ---
 
 # KaffeeSATS
