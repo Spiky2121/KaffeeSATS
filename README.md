@@ -17,7 +17,7 @@ The project currently includes two different implementations.
 ### Offline Lightning PIN System
 
 ![Offline Version](offline-machine.jpg)
-
+<img src="offline-machine.jpg" width="600">
 Hardware:
 
 * Sunton ESP32-3248S035 Smart Display
