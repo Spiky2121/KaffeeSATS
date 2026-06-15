@@ -107,28 +107,15 @@ Enjoy.
 
 ---
 
+## Sticker 
+<img src="sticker.jpg" width="350">
+## Downloads
+
 # Open Source
 
 This project is released under the MIT License.
 
 Feel free to fork, improve and build your own Bitcoin-powered coffee machine.
-
-## Sticker 
-<img src="sticker.jpg" width="350">
-## Downloads
-
-### Posters
-
-- KaffeeSATS Offline A3 Poster
-- KaffeeSATS Online A3 Poster
-- Offline-poster.jpg
-- Online-poster.jpg
-
-### 3D Files
-
-- Oberteil Final.step
-- Unterteil Test.step
-- ZapBox Housing.step
 
 ## Acknowledgements
 
