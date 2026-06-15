@@ -1,5 +1,7 @@
 ☕⚡ KaffeeSATS
+# KaffeeSATS
 
+![KaffeeSATS](Logo.png)
 ## Bitcoin-Powered Coffee Machines
 
 **Pay with Lightning. Drink Coffee.**
@@ -13,6 +15,8 @@ The project currently includes two different implementations.
 # Version 1: Offline Bitcoin Switch
 
 ### Offline Lightning PIN System
+
+![Offline Version](offline-machine.jpg)
 
 Hardware:
 
@@ -42,6 +46,8 @@ Advantages:
 # Version 2: Online ZapBox Edition
 
 ### Lightning & Bolt Card Enabled
+
+![Online Version](online-machine.jpg)
 
 Hardware:
 
