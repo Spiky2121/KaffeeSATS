@@ -113,6 +113,22 @@ This project is released under the MIT License.
 
 Feel free to fork, improve and build your own Bitcoin-powered coffee machine.
 
+## Sticker 
+<img src="sticker.jpg" width="350">
+## Downloads
+
+### Posters
+
+- KaffeeSATS Offline A3 Poster
+- KaffeeSATS Online A3 Poster
+- Offline-poster.jpg
+- Online-poster.jpg
+
+### 3D Files
+
+- Oberteil Final.step
+- Unterteil Test.step
+- ZapBox Housing.step
 
 ## Acknowledgements
 
@@ -120,9 +136,6 @@ Special thanks to Axel (www.ereignishorizont.xyz) for the development of ZapBox 
 
 Thanks to the LNbits team for providing the open-source payment infrastructure.
 ---
-## Sticker 
-<img src="sticker.jpg" width="350">
-
 # KaffeeSATS
 
 ### Pay With Lightning. Drink Coffee.
