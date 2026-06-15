@@ -1,5 +1,6 @@
 ☕⚡ KaffeeSATS
-GITHUG PAGE : https://spiky2121.github.io/KaffeeSATS/
+
+GITHUB PAGE : https://spiky2121.github.io/KaffeeSATS/
 
 # KaffeeSATS
 
