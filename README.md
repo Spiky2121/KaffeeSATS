@@ -17,6 +17,7 @@ The project currently includes two different implementations.
 ### Offline Lightning PIN System
 
 <img src="offline-machine.jpg" width="600">
+<img src="offline-poster.jpg" width="700">
 Hardware:
 
 * Sunton ESP32-3248S035 Smart Display
@@ -47,7 +48,7 @@ Advantages:
 ### Lightning & Bolt Card Enabled
 
 ![Online Version](online-machine.jpg)
-
+<img src="online-poster.jpg" width="700">
 Hardware:
 
 * ZapBox Compact
@@ -116,6 +117,8 @@ Special thanks to Axel (www.ereignishorizont.xyz) for the development of ZapBox 
 
 Thanks to the LNbits team for providing the open-source payment infrastructure.
 ---
+## Sticker 
+<img src="sticker.jpg" width="350">
 
 # KaffeeSATS
 
