@@ -159,6 +159,58 @@ Pay. Press. Enjoy Coffee.
 
 Built by a Bitcoiner, for Bitcoiners.
 
+                KaffeeSATS Offline Edition
+              LNbits Offline Bitcoin Switch
+
+
+        230V AC
+     ┌─────────────┐
+     │             │
+     │   L      N  │
+     └──┬──────┬───┘
+        │      │
+        │      │
+        ▼      ▼
+
+   ┌─────────────────┐
+   │ 230V → 5V PSU   │
+   │  AC/DC Module   │
+   └─────────────────┘
+          │
+     +5V  │  GND
+      │   │
+      ▼   ▼
+
+ ┌─────────────────────┐
+ │ Sunton ESP32-3248S035│
+ │                     │
+ │ GPIO21 ─────────┐   │
+ └─────────────────┘   │
+                       │
+                       ▼
+
+              ┌────────────────┐
+              │ 5V Relay Module│
+              │                │
+              │ VCC ← +5V      │
+              │ GND ← GND      │
+              │ IN  ← GPIO21   │
+              └─────┬──────┬───┘
+                    │      │
+                   COM    NO
+                    │      │
+                    │      │
+                    ▼      ▼
+
+              Pin 2     Neutral (N)
+          (lifted pin)  Tassimo PCB
+
+                    │
+                    │
+                    ▼
+
+            Original Tassimo
+              Start Button
 ---
 
 # Version 2: Online ZapBox Edition
