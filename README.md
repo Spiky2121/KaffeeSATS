@@ -377,7 +377,8 @@ Required modification:
 7. Coffee starts
 
 ---
-
+ <img src="Blockdiagramm Zapbox Edition.jpg" width="600">  
+ 
 ## Safety Notice
 
 ⚠️ This modification involves mains-powered equipment.
