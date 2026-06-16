@@ -211,6 +211,8 @@ Built by a Bitcoiner, for Bitcoiners.
 
             Original Tassimo
               Start Button
+
+  <img src="Blockdiagramm Offline Bitcoin Switch.jpg" width="600">            
 ---
 
 # Version 2: Online ZapBox Edition
