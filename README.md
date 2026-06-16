@@ -236,6 +236,159 @@ Advantages:
 
 ---
 
+# ☕ KaffeeSATS Online Zapbox Edition
+
+### ZapBox Lightning Payment Terminal for Bosch Tassimo
+
+**Pay with Lightning. Drink Coffee.**
+
+---
+
+## Project Purpose
+
+The KaffeeSATS Online Edition demonstrates how a Bitcoin Lightning payment can directly trigger a Bosch Tassimo coffee machine.
+
+The ZapBox handles:
+
+* Lightning payments
+* QR code generation
+* Bolt Card NFC payments
+* Payment verification
+
+After a successful payment, the ZapBox outputs **5V** via USB and activates an internal relay. The relay enables the original Tassimo start button.
+
+---
+
+## Hardware Components
+
+* ZapBox Payment Terminal
+* USB Power Output (5V)
+* Takamisawa NA5W-K Relay
+* Bosch Tassimo Control PCB
+* Original Tassimo Start Button
+
+---
+
+## System Overview
+
+```text
+                ┌──────────────────┐
+                │      ZapBox      │
+                │ Lightning Wallet │
+                └─────────┬────────┘
+                          │
+                          │ USB 5V Output
+                          ▼
+
+                ┌──────────────────┐
+                │ Internal Relay   │
+                │ Takamisawa NA5W-K│
+                └──────┬─────┬─────┘
+                       │     │
+                      COM    NO
+                       │     │
+                       │     ▼
+                       │  Neutral (N)
+                       │  Tassimo PCB
+                       │
+                       ▼
+
+                  Pin 2 Button
+                 (lifted from PCB)
+
+                       │
+                       ▼
+
+              Original Tassimo
+                 Start Button
+```
+
+---
+
+## USB Power Output
+
+The ZapBox provides 5V through the internal USB connector.
+
+| Wire  | Function |
+| ----- | -------- |
+| Red   | +5V      |
+| Black | GND      |
+
+Connections:
+
+```text
+ZapBox USB
+----------------
+Red   -> Relay Coil +
+Black -> Relay Coil -
+```
+
+---
+
+## Relay Contact Wiring
+
+Only the isolated relay contact is used.
+
+| Relay Contact | Connection                 |
+| ------------- | -------------------------- |
+| COM           | Button Pin 2               |
+| NO            | Neutral (N) on Tassimo PCB |
+| NC            | Not Connected              |
+
+---
+
+## Button Modification
+
+Original tactile switch:
+
+```text
+4 ----- 3
+|       |
+|   ●   |
+|       |
+1 ----- 2
+```
+
+Required modification:
+
+* Lift Pin 2 from PCB
+* Connect relay COM to Pin 2
+* Cut Pin 3
+* Leave Pins 1 and 4 unchanged
+
+---
+
+## Function Flow
+
+1. User scans Lightning invoice
+2. Payment is confirmed
+3. ZapBox outputs 5V
+4. Internal relay activates
+5. Relay connects:
+
+   * COM → Pin 2
+   * NO → Neutral (N)
+6. User presses the Tassimo button
+7. Coffee starts
+
+---
+
+## Safety Notice
+
+⚠️ This modification involves mains-powered equipment.
+
+* Disconnect power before working on the machine.
+* Insulate all wiring properly.
+* Verify relay isolation before operation.
+* Only qualified persons should work on electrical equipment.
+
+---
+
+### KaffeeSATS
+
+**Pay with Lightning. Drink Coffee.**
+
+
 # Comparison
 
 | Feature             | Offline Switch | ZapBox   |
