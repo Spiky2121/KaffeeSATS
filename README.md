@@ -236,7 +236,7 @@ Advantages:
 
 ---
 
-# ☕ KaffeeSATS Online Zapbox Edition
+# ☕ Online Zapbox Edition - Wiring Guide
 
 ### ZapBox Lightning Payment Terminal for Bosch Tassimo
 
