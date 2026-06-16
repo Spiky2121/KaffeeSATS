@@ -15,7 +15,7 @@ The project currently includes two different implementations.
 
 ---
 
-# Version 1: Offline Bitcoin Switch
+# Version 1: ☕ KaffeeSATS Offline Edition Bitcoin Switch
 
 ### Offline Lightning PIN System
 
@@ -44,7 +44,7 @@ Advantages:
 * No external controller required
 * Great demonstration of the LNbits Offline Bitcoin Switch
 
-# KaffeeSATS Offline Edition – Wiring Guide
+# ☕ KaffeeSATS Offline Edition – Wiring Guide
 
 ## Components
 
@@ -203,7 +203,7 @@ Required Modifications:
   <img src="Blockdiagramm Offline Bitcoin Switch.jpg" width="600">            
 ---
 
-# Version 2: Online ZapBox Edition
+# Version 2: ☕ KaffeeSATS Online ZapBox Edition
 
 ### Lightning & Bolt Card Enabled
 
@@ -236,7 +236,7 @@ Advantages:
 
 ---
 
-# ☕ Online Zapbox Edition - Wiring Guide
+# ☕ KaffeeSATS Online Zapbox Edition - Wiring Guide
 
 ### ZapBox Lightning Payment Terminal for Bosch Tassimo
 
