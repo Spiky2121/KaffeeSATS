@@ -268,7 +268,15 @@ Required Modifications:
                  Original Tassimo
                     Start Button
 
-  <img src="Blockdiagramm Offline Bitcoin Switch.jpg" width="600">            
+  <img src="Blockdiagramm Offline Bitcoin Switch.jpg" width="600">  
+
+  # 🌐 Bitcoin Offline Switch 
+
+## https://ereignishorizont.xyz/offlinelnswitch/
+
+# 🌐 Bitcoin Offline Switch Web Installer
+
+## https://ereignishorizont.xyz/installer/offlineLNSwitch/index.html
 ---
 
 # Version 2: ☕ KaffeeSATS Online ZapBox Edition
