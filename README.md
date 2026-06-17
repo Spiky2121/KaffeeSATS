@@ -520,7 +520,9 @@ Feel free to fork, improve and build your own Bitcoin-powered coffee machine.
 
 Special thanks to Axel (www.ereignishorizont.xyz) & (www.zapbox.space) for the development of ZapBox and the Offline Bitcoin Switch.
 ---
-Thanks to the LNbits team for providing the open-source payment infrastructure.
+---
+Thanks to the LNbits team and timecatcher.lnbits for providing the open-source payment infrastructure (https://lnbits.com/) & (https://timecatcher.business-bitcoin.de/)
+---
 ---
 # KaffeeSATS
 
