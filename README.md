@@ -425,6 +425,7 @@ Enjoy.
 
 ## Sticker 
 <img src="sticker.jpg" width="350">
+<img src="sticker rück.jpg" alt="Sticker Rückseite">
 ## Downloads
 
 # Open Source
