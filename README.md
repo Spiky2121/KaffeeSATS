@@ -270,11 +270,11 @@ Required Modifications:
 
   <img src="Blockdiagramm Offline Bitcoin Switch.jpg" width="600">  
 
-  # 🌐 Bitcoin Offline Switch 
+  # ⚡ Bitcoin Offline Switch 
 
 ## https://ereignishorizont.xyz/offlinelnswitch/
 
-# 🌐 Bitcoin Offline Switch Web Installer
+# ⚡ Bitcoin Offline Switch Web Installer
 
 ## https://ereignishorizont.xyz/installer/offlineLNSwitch/index.html
 ---
@@ -455,7 +455,7 @@ Required modification:
 
 ## ⚡ ZapBox Firmware
 
-👉 [Flash ZapBox Firmware](https://installer.zapbox.space/#flash)
+## 👉 [Flash ZapBox Firmware](https://installer.zapbox.space/#flash)
  
 ## Safety Notice
 
