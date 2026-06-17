@@ -272,7 +272,7 @@ Required Modifications:
 
   # 🌐 Bitcoin Offline Switch 
 
-## [![Offline Bitcoin Switch](https://img.shields.io/badge/⚡_Offline_Bitcoin_Switch-Ereignishorizont.xyz -orange?style=for-the-badge)](https://ereignishorizont.xyz/offlinelnswitch/)
+## https://ereignishorizont.xyz/offlinelnswitch/
 
 # 🌐 Bitcoin Offline Switch Web Installer
 
