@@ -442,6 +442,10 @@ Required modification:
 ---
  <img src="Blockdiagramm Zapbox Edition.jpg" width="600">  
  <img src="ZapBox E-Layout.jpg" width="600">
+
+ # 🌐 Zapbox Web Installer
+
+## https://installer.zapbox.space/#flash
  
 ## Safety Notice
 
