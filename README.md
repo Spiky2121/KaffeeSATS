@@ -505,6 +505,10 @@ Enjoy.
 <img src="sticker.jpg" width="350">
 <img src="sticker rück.jpg" width="350">
 
+## Business Card 
+<img src="b_card 1.png" width="350">
+<img src="b_card 2.png" width="350">
+
 
 # Open Source
 
