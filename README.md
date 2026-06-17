@@ -1,5 +1,5 @@
 # ☕⚡ KaffeeSATS
-[![Flash ZapBox](https://img.shields.io/badge/ZapBox-Flash_Firmware-orange)](https://installer.zapbox.space/#flash)
+
 ## Pay With Lightning. Drink Coffee.
 
 ### Open-Source Bitcoin Coffee Machines
@@ -455,7 +455,7 @@ Required modification:
 
  # 🌐 Zapbox Web Installer
 
-## https://installer.zapbox.space/#flash
+## [![Flash ZapBox](https://img.shields.io/badge/ZapBox-Flash_Firmware-orange)](https://installer.zapbox.space/#flash)
  
 ## Safety Notice
 
