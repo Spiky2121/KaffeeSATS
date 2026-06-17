@@ -1,19 +1,82 @@
-☕⚡ KaffeeSATS
+# ☕⚡ KaffeeSATS
 
-GitHub PAGE : https://spiky2121.github.io/KaffeeSATS/
+## Pay With Lightning. Drink Coffee.
 
-# KaffeeSATS
-
-![KaffeeSATS](Logo.png)
-## Bitcoin-Powered Coffee Machines
-
-**Pay with Lightning. Drink Coffee.**
-
-KaffeeSATS is an open-source project that transforms standard coffee machines into Bitcoin-powered vending systems using the Lightning Network.
-
-The project currently includes two different implementations.
+### Open-Source Bitcoin Coffee Machines
 
 ---
+
+# 🌐 Project Website
+
+## https://spiky2121.github.io/KaffeeSATS/
+
+---
+
+# 💻 GitHub Repository
+
+## https://github.com/Spiky2121/KaffeeSATS
+
+---
+
+### ⚡ Features
+
+* Lightning Payments
+* Bolt Card NFC Support
+* LNbits Offline Bitcoin Switch
+* ZapBox Online Edition
+* Bosch Tassimo Integration
+* 3D Printed Parts
+* Open Source Hardware
+* Open Source Documentation
+
+---
+
+### ☕ Two Bitcoin Coffee Machines
+
+#### 🔐 Offline Bitcoin Switch Edition
+
+* Sunton ESP32-3248S035
+* LNbits Offline Bitcoin Switch
+* PIN-based Coffee Unlock
+* Fully Offline Payment Verification
+
+#### 💳 ZapBox Online Edition
+
+* ZapBox Compact
+* Lightning QR Payments
+* Bolt Card NFC Payments
+* Instant Coffee Unlock
+
+---
+
+### 📚 Documentation
+
+* Wiring Guides
+* Block Diagrams
+* Build Instructions
+* Hardware Modifications
+* Safety Notes
+
+---
+
+### 🧩 Downloads
+
+* A3 Conference Posters
+* Wiring Diagrams
+* 3D Print Files
+* STEP Files
+* Sticker Artwork
+
+---
+
+### 🚀 Project Goal
+
+KaffeeSATS demonstrates how Bitcoin Lightning payments can interact with real-world hardware.
+
+Scan. Pay. Press. Enjoy Coffee.
+
+Built by a Bitcoiner, for Bitcoiners.
+
 
 # Version 1: ☕ KaffeeSATS Offline Edition Bitcoin Switch
 
