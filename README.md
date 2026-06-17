@@ -278,6 +278,8 @@ Required Modifications:
 
 ## https://ereignishorizont.xyz/installer/offlineLNSwitch/index.html
 ---
+---
+---
 
 # Version 2: ☕ KaffeeSATS Online ZapBox Edition
 
