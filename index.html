@@ -155,7 +155,23 @@ footer{
 </head>
 
 <body>
-
+  
+<nav style="
+position:sticky;
+top:0;
+z-index:1000;
+background:#111;
+padding:15px;
+text-align:center;
+border-bottom:1px solid #333;
+">
+<a href="#offline" style="color:#f7931a;margin:0 15px;">Offline Edition</a>
+<a href="#online" style="color:#f7931a;margin:0 15px;">ZapBox Edition</a>
+<a href="#docs" style="color:#f7931a;margin:0 15px;">Documentation</a>
+<a href="#build" style="color:#f7931a;margin:0 15px;">Build Process</a>
+<a href="#downloads" style="color:#f7931a;margin:0 15px;">Downloads</a>
+</nav>
+  
 <header>
   <div>
     <img src="Logo.png" class="logo" alt="KaffeeSATS Logo">
@@ -204,7 +220,7 @@ footer{
   </div>
 </section>
   
-<section>
+<section id="offline">
   <h2>Offline Bitcoin Switch Edition</h2>
   <div class="gallery">
     <img src="offline-machine.jpg" alt="Offline Coffee Machine">
@@ -214,7 +230,7 @@ footer{
   </div>
 </section>
 
-<section>
+<section id="online">
   <h2>ZapBox Online Edition</h2>
   <div class="gallery">
     <img src="online-machine.jpg" alt="Online Coffee Machine">
@@ -223,7 +239,7 @@ footer{
     
   </div>
 </section>
-  <section>
+  <section id="docs">
 <h2>Technical Documentation</h2>
 
 <div class="gallery">
@@ -231,8 +247,7 @@ footer{
 <img src="Blockdiagramm Zapbox Edition.jpg">
 </div>
 
-<section>
-
+<section id="build">
 <h2>Build Process</h2>
 
 <div class="gallery">
