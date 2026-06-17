@@ -441,7 +441,7 @@ Required modification:
 
 ---
  <img src="Blockdiagramm Zapbox Edition.jpg" width="600">  
- <img src="Zapbox E-Layout.jpg" width="600">
+ <img src="ZapBox E-Layout.jpg" width="600">
  
 ## Safety Notice
 
