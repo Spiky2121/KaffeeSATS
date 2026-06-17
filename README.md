@@ -453,9 +453,9 @@ Required modification:
  <img src="Blockdiagramm Zapbox Edition.jpg" width="600">  
  <img src="ZapBox E-Layout.jpg" width="600">
 
- # 🌐 Zapbox Web Installer
+## ⚡ ZapBox Firmware
 
-## [![Flash ZapBox](https://img.shields.io/badge/ZapBox-Flash_Firmware-orange)](https://installer.zapbox.space/#flash)
+👉 [Flash ZapBox Firmware](https://installer.zapbox.space/#flash)
  
 ## Safety Notice
 
