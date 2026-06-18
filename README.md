@@ -1,6 +1,6 @@
 # ☕⚡ KaffeeSATS
 
-<img src="Images/Logo 2.jpg" width="300">
+<img src="Logo.png" width="300">
 
 ## Pay With Lightning. Drink Coffee.
 
