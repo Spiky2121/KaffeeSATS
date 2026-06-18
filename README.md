@@ -453,11 +453,11 @@ Required modification:
  <img src="Blockdiagramm Zapbox Edition.jpg" width="600">  
  <img src="ZapBox E-Layout.jpg" width="600">
 
- # ⚡ Zapbox Documentation
+# ⚡ Zapbox Documentation
  
 ##  https://github.com/AxelHamburch/ZapBox
 
-## ⚡ ZapBox Web Installer
+# ⚡ ZapBox Web Installer
 
 ## 👉 [Flash ZapBox Firmware](https://installer.zapbox.space/#flash)
  
