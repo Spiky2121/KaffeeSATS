@@ -1,5 +1,7 @@
 # ☕⚡ KaffeeSATS
 
+<img src="Logo.png" width="700">
+
 ## Pay With Lightning. Drink Coffee.
 
 ### Open-Source Bitcoin Coffee Machines
