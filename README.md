@@ -270,7 +270,7 @@ Required Modifications:
 
   <img src="Blockdiagramm Offline Bitcoin Switch.jpg" width="600">  
 
-  # ⚡ Bitcoin Offline Switch 
+  # ⚡ Bitcoin Offline Switch Documentation
 
 ## https://ereignishorizont.xyz/offlinelnswitch/
 
