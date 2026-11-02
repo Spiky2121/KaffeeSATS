@@ -457,6 +457,64 @@ Required modification:
  <img src="Blockdiagramm Zapbox Edition.jpg" width="600">  
  <img src="ZapBox E-Layout.jpg" width="600">
 
+
+---
+
+# Version 3: ☕ KaffeeSATS De’Longhi Magnifica S Edition
+
+### Fully Automatic Espresso Machine – Lightning Enabled
+
+<img src="MagnificaS.jpg" width="600">
+
+<img src="MagnificaS-poster.jpg" width="700">
+
+### Hardware
+
+* De’Longhi Magnifica S
+* ZapBox Duo
+* Two Relay Modules
+* Original Magnifica S Control Buttons
+* Potential-Free Relay Contacts
+
+### Lightning Payments
+
+* Pay with any Bitcoin Lightning wallet
+* Lightning QR payments
+* Bolt Card NFC payments
+* No specific wallet required
+
+### How it works
+
+1. Scan Lightning QR code or tap Bolt Card
+2. Pay with any Lightning wallet
+3. Payment confirmed
+4. 50-second countdown starts
+5. Press the desired espresso or coffee button on the Magnifica S
+6. Relay activates the corresponding original button contacts
+7. The machine prepares the selected coffee
+
+### Features
+
+* 50-second coffee selection window
+* Original machine buttons remain functional
+* Select espresso or coffee directly on the machine
+* Two relay modules for button control
+* Potential-free relay contacts
+* No external 5V applied to machine button circuits
+* Lightning QR and NFC payments
+* Fully automatic espresso preparation
+
+### Demonstration Videos
+
+* Lightning Payment
+* Bolt Card – NFC Payment
+
+**Pay with Lightning. Drink Coffee.**
+
+---
+
+
+
 # ⚡ Zapbox Documentation
  
 ##  https://github.com/AxelHamburch/ZapBox
