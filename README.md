@@ -464,9 +464,7 @@ Required modification:
 
 ### Fully Automatic Espresso Machine – Lightning Enabled
 
-<img src="MagnificaS.jpg" width="600">
-
-<img src="MagnificaS-poster.jpg" width="700">
+<img src="Magnifica S.jpg" width="600">
 
 ### Hardware
 
