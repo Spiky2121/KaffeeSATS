@@ -540,15 +540,20 @@ Required modification:
 
 # Comparison
 
-| Feature             | Offline Switch | ZapBox   |
-| ------------------- | -------------- | -------- |
-| Lightning QR        | ✅              | ✅        |
-| NFC Bolt Card       | ❌              | ✅        |
-| Secret PIN          | ✅              | ❌        |
-| Sunton Display      | ✅              | Optional |
-| ZapBox              | ❌              | ✅        |
-| Offline Operation   | ✅              | ❌        |
-| Conference Friendly | ✅              | ✅        |
+
+| Feature | Offline Switch | ZapBox | Magnifica S |
+|---|---|---|---|
+| Lightning QR | ✅ | ✅ | ✅ |
+| NFC Bolt Card | ❌ | ✅ | ✅ |
+| Secret PIN | ✅ | ❌ | ❌ |
+| Sunton Display | ✅ | Optional | ❌ |
+| ZapBox | ❌ | ✅ | ZapBox Duo |
+| Offline Operation | ✅ | ❌ | ❌ |
+| 50-second selection window | ❌ | ❌ | ✅ |
+| Original coffee buttons | ✅ | ✅ | ✅ |
+| Espresso preparation | ❌ | ❌ | ✅ |
+| Fully automatic machine | ❌ | ❌ | ✅ |
+| Conference Friendly | ✅ | ✅ | ✅ |
 
 ---
 
