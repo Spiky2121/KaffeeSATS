@@ -22,11 +22,13 @@
 
 ### ⚡ Features
 
-* Lightning Payments
+* Bitcoin Lightning Payments – compatible with all Lightning wallets
 * Bolt Card NFC Support
 * LNbits Offline Bitcoin Switch
 * ZapBox Online Edition
+* De’Longhi Magnifica S Integration
 * Bosch Tassimo Integration
+* 50-second coffee selection window
 * 3D Printed Parts
 * Open Source Hardware
 * Open Source Documentation
