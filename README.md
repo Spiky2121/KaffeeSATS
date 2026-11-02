@@ -35,21 +35,36 @@
 
 ---
 
-### ☕ Two Bitcoin Coffee Machines
+
+### ☕ Three Bitcoin Coffee Machines
 
 #### 🔐 Offline Bitcoin Switch Edition
 
-* Sunton ESP32-3248S035
-* LNbits Offline Bitcoin Switch
-* PIN-based Coffee Unlock
-* Fully Offline Payment Verification
+- Sunton ESP32-3248S035
+- LNbits Offline Bitcoin Switch
+- PIN-based Coffee Unlock
+- Fully Offline Payment Verification
 
 #### 💳 ZapBox Online Edition
 
-* ZapBox Compact
-* Lightning QR Payments
-* Bolt Card NFC Payments
-* Instant Coffee Unlock
+- ZapBox Compact
+- Lightning QR Payments
+- Bolt Card NFC Payments
+- Instant Coffee Unlock
+
+#### ☕⚡ De’Longhi Magnifica S Edition
+
+- De’Longhi Magnifica S Fully Automatic Espresso Machine
+- ZapBox Duo
+- Lightning QR Payments
+- Bolt Card NFC Payments
+- Compatible with all Lightning wallets
+- 50-second coffee selection window
+- Select Espresso or Coffee on ZapBox Duo
+- Press the corresponding Espresso or Coffee button on the machine
+- Two relay modules with potential-free contacts
+- Original machine buttons remain functional
+
 
 ---
 
