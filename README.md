@@ -465,6 +465,8 @@ Required modification:
 ### Fully Automatic Coffee & Espresso Machine – Lightning Enabled
 
 <img src="Magnifica S.jpg" width="600">
+<img src="Magnifica S-poster.jpg" width="600">
+
 
 ### Hardware
 
