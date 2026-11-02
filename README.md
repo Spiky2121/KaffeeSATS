@@ -462,7 +462,7 @@ Required modification:
 
 # Version 3: ☕ KaffeeSATS De’Longhi Magnifica S Edition
 
-### Fully Automatic Espresso Machine – Lightning Enabled
+### Fully Automatic Coffee & Espresso Machine – Lightning Enabled
 
 <img src="Magnifica S.jpg" width="600">
 
