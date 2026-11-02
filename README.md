@@ -509,7 +509,161 @@ Required modification:
 
 **Pay with Lightning. Drink Coffee.**
 
+
+# ☕ KaffeeSATS De’Longhi Magnifica S Edition - Wiring Guide
+
+### ZapBox Duo Lightning Payment Terminal for De’Longhi Magnifica S
+
+**Pay with Lightning. Drink Coffee.**
+
 ---
+
+## Project Purpose
+
+The KaffeeSATS Magnifica S Edition demonstrates how Bitcoin Lightning payments can control a fully automatic espresso machine.
+
+The ZapBox Duo handles:
+
+- Lightning payments
+- QR code generation
+- Bolt Card NFC payments
+- Payment verification
+
+After a successful payment, a **50-second countdown** starts.
+
+During this time, the customer can prepare the machine if necessary and press the desired coffee or espresso button on the De’Longhi Magnifica S.
+
+The relay system activates the corresponding original machine button.
+
+---
+
+## Hardware Components
+
+- De’Longhi Magnifica S
+- ZapBox Duo
+- Two Relay Modules
+- Original Magnifica S Control PCB
+- Original Coffee / Espresso Buttons
+- Relay Wiring and Connection Cables
+
+---
+
+## System Overview
+
+```text
+                ┌──────────────────┐
+                │    ZapBox Duo   │
+                │ Lightning Wallet│
+                │   QR / NFC     │
+                └─────────┬────────┘
+                          │
+                  Payment Confirmed
+                          │
+                   50-second Timer
+                          │
+                          ▼
+
+                ┌──────────────────┐
+                │  Relay Module 1 │
+                │  Relay Module 2 │
+                └─────────┬────────┘
+                          │
+                  Potential-Free
+                    Contacts
+                          │
+                          ▼
+
+             Original Magnifica S
+                  Button Contacts
+                          │
+                          ▼
+
+              Coffee / Espresso
+                   Selection
+                          │
+                          ▼
+
+               Magnifica S
+              Prepares Coffee
+```
+
+---
+
+## Relay Control
+
+The Magnifica S is controlled through two relay modules.
+
+The relay modules use **potential-free contacts** to simulate the original machine button presses.
+
+### Relay Modules
+
+| Relay | Function |
+| ----- | -------- |
+| Relay 1 | Original machine button control |
+| Relay 2 | Original machine button control |
+
+The relay contacts operate the original button circuits without injecting external 5V into the machine.
+
+---
+
+## Relay Contact Wiring
+
+Only the isolated potential-free relay contacts are used.
+
+| Relay Contact | Function |
+| ------------- | -------- |
+| COM | Common button contact |
+| NO | Normally open button contact |
+| NC | Not connected |
+
+The relay contacts simulate the original button press.
+
+---
+
+## Button Control
+
+The original Magnifica S buttons remain functional.
+
+After payment:
+
+1. The 50-second countdown starts.
+2. The customer prepares the machine if necessary.
+3. The customer presses the desired coffee or espresso button.
+4. The relay activates the corresponding original button contact.
+5. The machine prepares the selected coffee.
+
+---
+
+## Function Flow
+
+1. User scans Lightning invoice or taps Bolt Card.
+2. Payment is confirmed.
+3. ZapBox Duo starts the 50-second countdown.
+4. User selects the desired coffee or espresso.
+5. Relay system activates the corresponding button contact.
+6. Original Magnifica S button circuit is triggered.
+7. Coffee preparation starts.
+
+---
+
+## Safety Notice
+
+⚠️ This modification involves mains-powered equipment.
+
+- Disconnect power before working on the machine.
+- Ensure proper insulation of all wiring.
+- Verify relay isolation before operation.
+- Protect against accidental contact with live parts.
+- Only qualified persons should work on electrical equipment.
+
+---
+
+## Project Purpose
+
+KaffeeSATS demonstrates how Bitcoin Lightning payments can interact with real-world espresso machines.
+
+**Pay with Lightning. Drink Coffee.**
+
 
 
 
