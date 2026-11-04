@@ -24,7 +24,7 @@ body{
 }
 
 header{
-  min-height:90vh;
+  min-height:55vh;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -151,6 +151,24 @@ footer{
 }
 
 .orange{color:var(--orange)}
+
+.machine-overview{padding:30px 20px 50px;max-width:1200px;margin:auto}
+.machine-overview h2{text-align:center;margin-bottom:22px}
+.machine-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.machine-card{background:#111;border:1px solid #292929;border-radius:16px;overflow:hidden;transition:.2s}
+.machine-card:hover{border-color:var(--orange);transform:translateY(-3px)}
+.machine-card img{width:100%;height:220px;object-fit:contain;background:#080808;padding:12px}
+.machine-card .machine-copy{padding:18px}
+.machine-card h3{color:var(--orange);margin-bottom:8px}
+.machine-card a{color:var(--orange);font-weight:bold;text-decoration:none}
+.new-feature{max-width:1200px;margin:24px auto 0;padding:0 20px}
+.new-feature-inner{display:grid;grid-template-columns:minmax(220px, .9fr) minmax(280px,1.1fr);gap:24px;align-items:center;background:linear-gradient(120deg,#171008,#0c0c0c);border:1px solid #70420d;border-radius:18px;padding:22px}
+.new-feature img{width:100%;max-height:330px;object-fit:contain}
+.new-tag{display:inline-block;background:var(--orange);color:#000;font-weight:bold;padding:3px 10px;border-radius:5px;margin-bottom:8px}
+.new-feature h2{margin-bottom:10px}
+.new-feature p{color:var(--muted);margin-bottom:12px}
+@media(max-width:700px){.new-feature-inner{grid-template-columns:1fr}.new-feature img{max-height:240px}.machine-card img{height:190px}}
+
 </style>
 </head>
 
@@ -192,24 +210,39 @@ border-bottom:1px solid #333;
   </div>
 </header>
 
-<section>
-  <h2>Two Bitcoin Coffee Machines</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>⚡ Offline Bitcoin Switch</h3>
-      <p>
-        Uses a Sunton ESP32 smart display and the LNbits Offline Bitcoin Switch.
-        Users pay with Lightning, receive a secret PIN and unlock the machine.
-      </p>
+<section class="new-feature" id="magnifica-feature">
+  <div class="new-feature-inner">
+    <img src="Posters/Magnifica S-poster.jpg" alt="KaffeeSATS Magnifica S Edition">
+    <div>
+      <span class="new-tag">NEW EDITION</span>
+      <h2>De’Longhi Magnifica S – Bitcoin Coffee & Espresso</h2>
+      <p>Lightning payments with QR or NFC Bolt Card. With the ZapBox Duo, choose Espresso or Coffee and activate the original machine button through relay contacts.</p>
+      <a href="#magnifica" style="color:var(--orange);font-weight:bold">Discover Magnifica S →</a>
     </div>
- 
-    <div class="card">
-      <h3>💳 ZapBox Online Edition</h3>
-      <p>
-        Uses ZapBox, LNbits and NFC Bolt Card support.
-        The ZapBox sends a 5V signal to an internal relay after payment.
-      </p>
-    </div>
+  </div>
+</section>
+
+<section class="machine-overview" id="machines">
+  <h2>Three Bitcoin Coffee Machines</h2>
+  <div class="machine-grid">
+    <article class="machine-card">
+      <img src="offline-machine.jpg" alt="KaffeeSATS Offline Bitcoin Switch">
+      <div class="machine-copy"><h3>⚡ Offline Bitcoin Switch</h3>
+        <p>Sunton ESP32 display and LNbits Offline Bitcoin Switch. Pay with Lightning and unlock using a PIN.</p>
+        <a href="#offline">Explore Offline Edition →</a></div>
+    </article>
+    <article class="machine-card">
+      <img src="online-machine.jpg" alt="KaffeeSATS ZapBox Online Edition">
+      <div class="machine-copy"><h3>💳 ZapBox Online Edition</h3>
+        <p>Lightning QR payments and NFC Bolt Card support with the ZapBox.</p>
+        <a href="#online">Explore ZapBox Edition →</a></div>
+    </article>
+    <article class="machine-card">
+      <img src="Posters/Magnifica S-poster.jpg" alt="KaffeeSATS Magnifica S Edition">
+      <div class="machine-copy"><h3>☕ Magnifica S <span class="new-tag">NEW</span></h3>
+        <p>Bitcoin-powered Espresso and Coffee using ZapBox Duo and relay modules.</p>
+        <a href="#magnifica">Explore Magnifica S →</a></div>
+    </article>
   </div>
 </section>
 
@@ -293,7 +326,25 @@ border-bottom:1px solid #333;
     
   </div>
 </section>
-  <section id="docs">
+  
+<section id="magnifica">
+  <h2>☕ Magnifica S Edition – Bitcoin Coffee & Espresso</h2>
+  <p style="text-align:center;max-width:850px;margin:0 auto 24px;color:var(--muted)">
+    The ZapBox Duo enables Lightning payments for two drinks: Espresso or Coffee.
+    After payment, select the drink on the ZapBox Duo and press the matching original button on the Magnifica S within the 50-second activation window.
+  </p>
+  <div class="grid">
+    <div class="card"><h3>⚡ Pay with Lightning</h3><p>Use any Lightning wallet via QR code, or tap an NFC Bolt Card.</p></div>
+    <div class="card"><h3>☕ Choose your drink</h3><p>Select Espresso or Coffee on the ZapBox Duo, then press the corresponding button on the coffee machine.</p></div>
+    <div class="card"><h3>🔌 Relay activation</h3><p>Two relay modules use potential-free contacts to activate the machine's original buttons.</p></div>
+  </div>
+  <div class="gallery" style="margin-top:24px">
+    <img src="Posters/Magnifica S-poster.jpg" alt="Magnifica S Edition poster">
+    <img src="Posters/KaffeeSATS Magnifica Poster A3.png" alt="Magnifica S A3 poster">
+  </div>
+</section>
+
+<section id="docs">
 <h2>Technical Documentation</h2>
 
 <div class="gallery">
